@@ -13,3 +13,7 @@ quiz = QuizBrain(question_bank)
 
 while quiz.still_has_questions():
     quiz.next_question()
+
+print("\nVocê chegou ao fim do quiz!")
+print(f"Sua pontuação final foi: {quiz.score}/{quiz.question_number}")
+print("\n")
